@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const inter = Inter({
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.variable} font-sans antialiased`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
