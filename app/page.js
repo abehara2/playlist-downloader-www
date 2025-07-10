@@ -7,6 +7,10 @@ import { FaApple } from "react-icons/fa";
 
 export default function Home() {
   const [showPill, setShowPill] = useState(false);
+  
+  // Debug: Check if environment variable is loaded
+  const downloadUrl = process.env.NEXT_PUBLIC_DOWNLOAD_URL;
+  console.log('Download URL:', downloadUrl);
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-white">
