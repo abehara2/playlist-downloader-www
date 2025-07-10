@@ -57,7 +57,7 @@ export default function Home() {
           className="rounded-full"
         >
           <a 
-            href="https://www.dropbox.com/scl/fi/g1j3vbdoiwkljdu2mxlzr/Playlist-Downloader-Mac-0.0.0-Installer.dmg?rlkey=cj272w1vheiuywq8n8yu2px2o&st=vk68mr0u&dl=1"
+            href={process.env.NEXT_PUBLIC_DOWNLOAD_URL}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => track('download_clicked', { 
