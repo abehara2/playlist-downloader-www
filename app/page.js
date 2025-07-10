@@ -47,7 +47,7 @@ export default function Home() {
         
         {/* Title */}
         <h1 className="text-gray-500 text-md">
-          Download public spotify playlists in mp3 format. Free and unlimited forever.
+          Download public spotify & soundcloud playlists in mp3 format. Free and unlimited forever.
         </h1>
         
         {/* Download Button */}
@@ -57,7 +57,7 @@ export default function Home() {
           className="rounded-full"
         >
           <a 
-            href="https://www.dropbox.com/scl/fi/7frurn8vky5suu4f26idu/0.0.0.dmg?rlkey=sk7rxkejy38c335ods3d5wc0y&st=smzr8xft&dl=1"
+            href="https://www.dropbox.com/scl/fi/ui01hzau76d3zcyg1q5xb/Playlist-Downloader-Mac-0.0.0-Installer.dmg?rlkey=dsp2xrrke0tueivr1ltkbduvo&st=8hxa7oz0&dl=1"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => track('download_clicked', { 
